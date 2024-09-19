@@ -1,0 +1,13 @@
+là 1 usecase khi có đủ 3 điều kiện:
+gồm chuỗi các hành động
+mang lại 1 giá trị nào đó
+có sự tương tác giữa actor và hệ thống
+
+mối quan hệ giữa include và extend nó chỉ nằm trong 1 usecase
+chứ k thể include và extend giữa 2 usecase độc lập được.
+
+Khi nhiều usecase có chung 1 use case con nào đó
+thì ta tách ra 1 usecase khác, nếu usecase tách ra năm trong success flow 
+thì dùng include, còn alternative flow thì dùng extend
+
+extend : nếu thỏa mãn điều kiện thì nó chèn vào basic flow
